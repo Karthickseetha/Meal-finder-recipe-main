@@ -1,0 +1,36 @@
+/* heart.styles.scss */
+.heart-route {
+  padding: 20px;
+  margin-top: 7rem;
+}
+
+.favorite-meals {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  
+}
+
+.favorite-meals .single-meal {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.favorite-meals .single-meal img {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+.favorite-meals .single-meal .single-meal-info {
+  padding: 15px;
+}
+
+.favorite-meals .single-meal .single-meal-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.favorite-meals .single-meal .single-meal-info p {
+  margin-bottom: 10px;
+}
